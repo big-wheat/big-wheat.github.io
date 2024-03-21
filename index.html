@@ -9,7 +9,7 @@
         position: relative;
         height: 100vh;
         margin: 0;
-        font-family: Helvetica, sans-serif;
+        font-family: Georgia, serif;
     }
     h1 {
         position: absolute;
@@ -18,16 +18,27 @@
         transform: translate(-50%, -50%);
         font-weight: bold;
         font-size: 30pt;
-        letter-spacing: -2.5px;
+        letter-spacing: -2.6px;
+        line-spacing: -12pt;
+        z-index: 1;
+  }
+    p1 {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 10pt;
+        letter-spacing: -1px;
         line-spacing: -12pt;
         z-index: 1;
     }
     img {
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
-        max-width: 70%; /* Adjust the percentage to change the size of the image */
+        max-height: 30%; /* Adjust the percentage to change the size of the image */
         height: auto;
         z-index: 0;
     }
@@ -38,5 +49,6 @@
     <a href="https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:shakespearestrag01shak:shakespearestrag01shak_0046/full/pct:25.0/0/default.jpg#h=820&w=542">
         <img src="shredded-wheat-with-milk-or-cream-bettmann_VSCO.JPG" alt="A big wheat">
     </a>
+	<p1> copyright 2024 big wheat, llc. </1p>
 </body>
 </html>
